@@ -10,7 +10,7 @@
   - [Additional Info](#additional-info)
   ## Description:
   This read me is generated through Tongs-readme generator. I've included a picture with a legend so you can see how it looks and how it works.
-    ![alt text](/tetdemo.PNG)
+    ![alt text](/tetdemo.png)
     
     PLEASE DOWNLOAD DEMO VIDEO IN REPOSITORY TO WATCH HOW IT WORKS!!
   ## Installation:
