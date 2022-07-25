@@ -9,7 +9,10 @@
   - [Testing](#testing)
   - [Additional Info](#additional-info)
   ## Description:
-  This read me is generated through Tongs-readme generator
+  This read me is generated through Tongs-readme generator. I've included a picture with a legend so you can see how it looks and how it works.
+    ![alt text](/Capture.PNG)
+    
+    PLEASE DOWNLOAD DEMO VIDEO IN REPOSITORY TO WATCH HOW IT WORKS!!
   ## Installation:
   you will need various node dependecies to be installed for this to work. Please take a look at the git repro for more infomation on which dependencies to install.
   ## Usage:
