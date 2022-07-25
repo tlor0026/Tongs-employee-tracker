@@ -1,18 +1,26 @@
-INSERT INTO parties (name, description)
+INSERT INTO departments (department_name)
 VALUES
-  ('JS Juggernauts', 'The JS Juggernauts eat, breathe, and sleep JavaScript. They can build everything you could ever want in JS, including a new kitchen sink.'),
-  ('Heroes of HTML', 'Want to see a mock-up turn into an actual webpage in a matter of minutes? Well, the Heroes of HTML can get it done in a matter of seconds.'),
-  ('Git Gurus', 'Need to resolve a merge conflict? The Git Gurus have your back. Nobody knows Git like these folks do.');
+("Advisory"),
+("Auditing and Assurance"),
+("Tax and Compliance"),
+("Operations");
 
-INSERT INTO candidates (first_name, last_name, party_id, industry_connected)
+INSERT INTO roles (title, salary, department_id) 
 VALUES
-  ('Ronald', 'Firbank', 1, 1),
-  ('Virginia', 'Woolf', 1, 1),
-  ('Piers', 'Gaveston', 1, 0),
-  ('Charles', 'LeRoi', 2, 1),
-  ('Katherine', 'Mansfield', 2, 1),
-  ('Dora', 'Carrington', 3, 0),
-  ('Edward', 'Bellamy', 3, 0),
-  ('Montague', 'Summers', 3, 1),
-  ('Octavia', 'Butler', 3, 1),
-  ('Unica', 'Zurn', NULL, 1);
+("TAS Partner",205000,1),
+("ERM Director",185000,1),
+("Chief Risk Officer",305000,2),
+("IT Audit Director",250000,2),
+("Senior Tax Manager",250000,3),
+("Tax Manager",150000,3),
+("CEO",1750000,4),
+("CFO",950000,4);
+
+INSERT INTO employees (first_name, last_name, role_id, manager_id) 
+VALUES
+("Kelly", "Smith",1, NULL),
+("Danny", "Lowe",2, 1),
+("Paula", "Jones",3, 2),
+("Bill", "Stern",4, 3),
+("Marley", "Patterson",5, NULL),
+("Ashley", "Lawrence",6, NULL);

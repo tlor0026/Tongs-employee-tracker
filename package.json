@@ -1,0 +1,25 @@
+{
+  "name": "tongs-employee-tracker",
+  "version": "1.0.0",
+  "description": "tongs employee tracker challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlor0026/Tongs-employee-tracker.git"
+  },
+  "author": "Tong Lor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tlor0026/Tongs-employee-tracker/issues"
+  },
+  "homepage": "https://github.com/tlor0026/Tongs-employee-tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
+  }
+}
